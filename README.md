@@ -1,24 +1,18 @@
-# README
+# A minimal ruby on rails api-only app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
 
-Things you may want to cover:
+````
+$ git clone git@github.com:anotherHarry/minimal_rails_api_app.git
+$ cd blog
+$ bundle install --without production
+$ rails server
+````
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Steps to build a minimal rails api-only app
+1. Create model
+2. Migrate database `rails db:migrate`
+3. Config routes
+4. Run `rails routes`
+5. Create controller
+6. Create Json Response
